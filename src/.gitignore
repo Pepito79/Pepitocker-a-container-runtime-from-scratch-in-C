@@ -1,0 +1,25 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Temporary directories created by test_parser.py
+*_ctx/
+
+# C build artifacts & binaries
+*.o
+*.so
+*.a
+*.out
+pepitocker-exec
+pepitocker-init
+pepitocker
+
+# Editor / OS temporary files
+.DS_Store
+*.swp
+*~
